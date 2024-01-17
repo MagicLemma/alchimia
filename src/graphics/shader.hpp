@@ -29,6 +29,7 @@ public:
 
     auto load_mat4(const std::string& name, const glm::mat4& matrix) const -> void;
     auto load_vec2(const std::string& name, const glm::vec2& vector) const -> void;
+    auto load_vec3(const std::string& name, const glm::vec3& vector) const -> void;
     auto load_vec4(const std::string& name, const glm::vec4& vector) const -> void;
     auto load_int(const std::string& name, int value) const -> void;
     auto load_float(const std::string& name, float value) const -> void;

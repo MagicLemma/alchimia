@@ -30,9 +30,7 @@ public:
 
     auto bind() const -> void;
 
-    auto update(const world& world, glm::vec4 dimensions, const camera& camera) -> void;
-
-    auto draw() const -> void;
+    auto draw(const world& world, glm::vec4 dimensions, float angle, glm::vec3 colour, const camera& camera) -> void;
 };
 
 }
